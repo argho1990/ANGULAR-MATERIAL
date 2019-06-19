@@ -11,10 +11,6 @@ export class UserComponent implements OnInit {
 
   constructor(private service: UserService) { }
 
-
-
-
-
   userType = [
     { id: 1, value: 'Customer' },
     { id: 2, value: 'Dealer' }

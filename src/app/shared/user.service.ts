@@ -12,12 +12,12 @@ export class UserService {
     fullName: new FormControl('', Validators.required),
     email: new FormControl('', Validators.email),
     mobile: new FormControl('', [Validators.required, Validators.minLength(10)]),
-    birthDate: new FormControl(''),
     city: new FormControl(''),
     state: new FormControl(''),
     gender: new FormControl('1'),
+    birthDate: new FormControl(''),
     userType: new FormControl(0),
-    isPermanent: new FormControl(false)
+    isActive: new FormControl(false)
   });
 
   initializeFormGroup() {
@@ -28,8 +28,9 @@ export class UserService {
       email: '',
       mobile: '',
       city: '',
-      userType: '',
+      state: '',
       birthDate: '',
+      userType: '',
       isActive: 'false'
     });
 

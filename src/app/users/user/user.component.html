@@ -71,7 +71,7 @@
         <div class="button-row">
           <button mat-raised-button color color="primary" type="submit"
             [disabled]="service.form.invalid">Submit</button>
-          <button mat-raised-button color color="warn" type="submit">Clear</button>
+          <button mat-raised-button color color="warn" (click)="onClear()">Clear</button>
         </div>
       </div>
 
