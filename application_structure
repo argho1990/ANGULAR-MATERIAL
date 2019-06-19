@@ -1,0 +1,12 @@
+> src 
++------> app
+|      +----> users
+|      |    |---users.component.ts|.html|.css
+|      |    +--->user 
+|      |    | 
+|      |    | 
+|      |    +---> shared
+|      |        |---user/service.ts(form group) 
+|      |
+|      |
+|      |----app.module.ts
